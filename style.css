@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.btn {
+  padding: 10px;
+}
